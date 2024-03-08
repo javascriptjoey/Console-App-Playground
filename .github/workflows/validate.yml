@@ -5,6 +5,12 @@ on:
     branches:
       - '*'
       - '!main' # Exclude the main branch
+  
+  pull_request:
+    branches:
+      - '*'
+    
+
 
 jobs:
   build:
